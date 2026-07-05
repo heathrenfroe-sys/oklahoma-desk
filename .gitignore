@@ -1,0 +1,12 @@
+# local state and pulled data — regenerable, never committed
+data/
+state/
+outbox/
+logs/
+
+# secrets
+.env
+
+# python
+.venv/
+__pycache__/

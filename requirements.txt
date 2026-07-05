@@ -1,0 +1,5 @@
+# Oklahoma Desk data scripts — minimal on purpose.
+requests>=2.31        # all three scripts: HTTP to FRED / FDIC / SEC APIs
+pandas>=2.0           # fred_pull + fdic_pull: CSV shaping and derived ratios
+python-dotenv>=1.0    # load FRED_API_KEY / EDGAR_USER_AGENT from a .env file
+statsmodels>=0.14     # fred_pull: 6-month ARIMA projection on OK unemployment
