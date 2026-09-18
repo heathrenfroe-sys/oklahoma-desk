@@ -175,6 +175,5 @@ oklahoma-desk/
 └── outbox/             Pi-mode alert notes awaiting sync (gitignored)
 ```
 
-Next step worth doing: `git init` + a GitHub remote — the PC → GitHub →
-Pi `git pull` loop is the house deploy pattern (see `quant-pi`), and this
-repo is résumé material.
+
+    
